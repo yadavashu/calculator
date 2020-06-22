@@ -1,0 +1,194 @@
+@import url('https://fonts.google.com/specimen/Roboto+Condensed?preview.text=9&preview.text_type=custom&sidebar.open&selection.family=Roboto+Condensed:wght@700');
+body{
+    padding:0;
+    margin:0;
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    
+    
+}
+.main-container
+{
+    width:300px;
+    height: 60%;
+    background-color:#003366;
+    position:absolute; 
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+     border-top-left-radius: 1.5em;
+    border-top-right-radius:1.5em;
+    
+}
+.answer{
+    width:292px;
+    height:50px;
+    background:white;
+border-style:solid;
+    border-top-left-radius: 1em;
+    border-top-right-radius:1em;
+    border-color:#003366 ;
+}
+.brackets{
+    margin-top:15px;
+    margin-bottom:20px;
+    margin-left:10%;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:15%;
+    
+}
+.brackets button{
+    font-family: Roboto Condensed;
+    font-size:1.6em;
+    border-style: none;
+    background:#003366;
+    color:white;
+    cursor:pointer;
+    outline:none;
+}
+#ce{
+    font-size:1.2em;
+    padding-right:20px;
+    margin-left:15%;
+}
+.num-pad1{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:10%;
+    display:flex;
+    justify-content:space-between;
+}
+.num-pad1 button{
+    font-family: Roboto Condensed;
+    font-size:1.6em;
+    border-style: none;
+    background: #003366;
+    color:white;
+    cursor:pointer;
+    outline:none;
+}
+#plus{
+    margin-left:20%;
+}
+.num-pad2{
+
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:10%;
+    display:flex;
+    justify-content:space-between;
+}
+.num-pad2 button{
+    font-family: Roboto Condensed;
+    font-size:1.6em;
+    border-style: none;
+    background:#003366;
+    color:white;
+    cursor:pointer;
+    outline:none;
+}
+#minus{
+    margin-left:20%;
+}
+.num-pad3{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:10%;
+    display:flex;
+    justify-content:space-between;
+}
+.num-pad3 button{
+    font-family: Roboto Condensed;
+    font-size:1.6em;
+    border-style: none;
+    background:#003366;
+    color:white;
+    cursor:pointer;
+    outline:none;
+}
+#mult{
+    margin-left:20%;
+}
+.num-pad4{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:10%;
+    display:flex;
+    justify-content:space-between;
+}
+.num-pad4 button{
+    font-family: Roboto Condensed;
+    font-size:1.6em;
+    border-style: none;
+    background: #003366;
+    color:white;
+    cursor:pointer;
+    outline:none; 
+}
+#divi{
+    margin-left:20%;
+}
+#answer-display
+{
+    font-size:1.5em;
+    color:#003366 ;
+    font-weight:550;
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+    background-image: linear-gradient(315deg, #e899dc 0%, #d387ab 74%);
+    }
+    .main-container
+    {
+        width:600px;
+        height:450px;
+    }
+    .answer{
+        width:593px;
+        margin-bottom:20px;
+    }
+    .brackets{
+        margin-bottom:50px;
+    }
+    #ce{
+        margin-right:50px;
+        margin-left:95px;
+        padding:5px;
+    }
+    .brackets button{
+        border:solid;
+        width:60px;height:40px;
+        border-radius: 0.6em;
+        
+    }
+     button:hover{
+background:#df73ff;
+    }
+   
+    .num-pad1 button{
+        border:solid;
+        width:60px;height:40px;
+        border-radius: 0.6em;
+    }
+    .num-pad2 button{
+        border:solid;
+        width:60px;height:40px;
+        border-radius: 0.6em;
+    }
+    .num-pad3 button{
+        border:solid;
+        width:60px;height:40px;
+        border-radius: 0.6em;
+    }
+    .num-pad4 button{
+        border:solid;
+        width:60px;height:40px;
+        border-radius: 0.6em;
+    }
+}
+   
+  
+
+
